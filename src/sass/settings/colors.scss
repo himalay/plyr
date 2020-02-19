@@ -1,8 +1,11 @@
 // ==========================================================================
 // Colors
 // ==========================================================================
+:root {
+    --plyr-color-main: hsl(198, 100%, 50%);
+}
 
-$plyr-color-main: hsl(198, 100%, 50%) !default;
+$plyr-color-main: var(--plyr-color-main) !default;
 
 // Grayscale
 $plyr-color-gray-9: hsl(210, 15%, 16%);
